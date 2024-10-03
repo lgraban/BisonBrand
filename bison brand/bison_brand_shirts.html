@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset = "utf-8">
+	<title> Bison Brand Shirts </title>
+	<link rel="shortcut icon" href="bison_brand_logo.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="bison_brand_style.css">
+</head>
+
+<script type="text/javascript" src="bison_brand.js"></script>
+
+<div class="outer">
+	<div class="inner"> 
+		<img src="bison_silo.png" alt="bison" width="122.857142857" height="80.5714285714">
+	</div>
+</div>
+<div id="result"></div>
+
+<body>
+	</br>
+	</br>
+	<div class="tab">
+		<button class="tablinks" onclick="openProduct(event, 'shirts')">shirts</button>
+		<button class="tablinks" onclick="openProduct(event, 'hoodies')">hoodies</button>
+		<button class="tablinks" onclick="openProduct(event, 'bottoms')">bottoms</button>
+		<button class="tablinks" onclick="openProduct(event, 'other')">other</button>
+		<button class="tablinks" onclick="openProduct(event, 'cart'); getCart()">cart</button>
+	</div>
+
+	<div id="shirts" class="tabcontent">
+		<h2> shirts </h2>	
+	
+		<img src="bison_brand_light_grey_t-shirt.png" width="200px" height="200px">
+	
+		<p>price: $30<p>
+	
+		<label for="size">size:</label>
+		</br>
+		<select name="shirt" id="shirt">
+			<option value=" shirt_small">small</option>
+			<option value=" shirt_medium">medium</option>
+			<option value=" shirt_large">large</option>
+			<option value=" shirt_xlarge">xlarge</option>
+		</select>
+			<span class="output"></span>
+			</br>
+		<button onclick="addCartShirt()"> add to cart </button>
+	</div>
+
+	
+	
+	<div id="hoodies" class="tabcontent">
+		<h2> hoodies </h2>	
+	
+		<img src="bison_brand_hoodie.png" width="200px" height="200px">
+	
+		<p>price: $60<p>
+	
+		<label for="size">size:</label>
+		</br>
+		<select name="hoodie" id="hoodie">
+			<option value=" hoodie_small">small</option>
+			<option value=" hoodie_medium">medium</option>
+			<option value=" hoodie_large">large</option>
+			<option value=" hoodie_xlarge">xlarge</option>
+		</select>
+			<span class="output"></span>
+			</br>
+		<button onclick="addCartHoodie()"> add to cart </button>
+	</div>
+	
+
+	
+	<div id="bottoms" class="tabcontent">
+		<h2> bottoms </h2>	
+	
+		<img src="bison_brand_joggers.png" width="200px" height="200px">
+	
+		<p>price: $50<p>
+		
+		<label for="size">size:</label>
+		</br>
+		<select name="joggers" id="joggers">
+			<option value=" joggers_small">small</option>
+			<option value=" joggers_medium">medium</option>
+			<option value=" joggers_large">large</option>
+			<option value=" joggers_xlarge">xlarge</option>
+		</select>
+			<span class="output"></span>
+			</br>
+		<button onclick="addCartJogger()"> add to cart </button>
+	</div>
+	
+	
+	
+	<div id="other" class="tabcontent">
+		<h2> other </h2>
+	
+		<img src="bison_brand_skateboard.png" width="200px" height="200px">
+	
+		<p>price: $80<p>
+	
+		<span class="output"></span>
+	
+		<button name="skateboard_deck" id="skateboard_deck" type="submit" value=" skateboard_deck" onclick="addCartOther()">add to cart</button>
+		
+		<img src="bison_brand_hat.png" width="200px" height="200px">
+	
+		<p>price: $15<p>
+
+		<span class="output"></span>
+	
+		<button name="hat" id="hat" type="submit" value=" hat" onclick="addCartAccessory()">add to cart</button>
+	</div>
+	
+	
+	
+	<div id="cart" class="tabcontent">
+		<h2> cart </h2>
+		<div id="results" class="output">
+			
+        </div>
+	</div>
+	
+	
+	<h2> <a href="bison_brand_home.html">home</a>
+	
+</body>
+</html>

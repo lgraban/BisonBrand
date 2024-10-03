@@ -1,0 +1,128 @@
+	body{
+		background: #E38F66;
+	}
+	.outer {
+		margin: auto;
+		width: 200px;
+		height: 200px;
+		background: #AA445F;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.inner {
+		margin: auto;
+		background: #F7EC7D;
+		display: flex;
+		border-radius: 50%;
+		width: 140px;
+		height: 140px;
+		align-items: center;
+		justify-content: center;
+	}
+	h1{
+		text-align: center;
+		font-size: 75px;
+		font-family: "Courier New";
+	}
+	h2{
+		text-align: center;
+		font-size: 50px;
+		font-family: "Courier New";	
+	}
+	img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	a{
+		text-decoration: none;
+		color: #000;
+	}
+	a:hover {
+		color: #803939;	
+	}
+	label {
+		display: block;
+		text-align: center;
+		font-size: 25px;
+		font-family: "Courier New";
+	}
+	select {
+		display: block;
+		background-color: #ccc;
+		border: 2px black solid;
+		margin: auto;
+		font-size: 25px;
+		font-family: "Courier New";
+	}
+	button {
+		background-color: #ccc;
+		border: 2px black solid;
+		display: block;
+		margin: auto;
+		font-size: 25px;
+		font-family: "Courier New";
+	}
+	button:hover {
+		background-color: #ddd;
+	}
+	button:active{
+		background-color: #2fba41;
+	}
+	p{
+		text-align: center;
+		font-size: 25px;
+		font-family: "Courier New";	
+	}
+	.tab {
+
+	}
+	.tab button {
+		background-color: #555;
+		border: none;
+		float: left;
+		outline: 2px black solid;
+		cursor: pointer;
+		padding: 15px 15px;
+		font-size: 20px;
+		width: 20%;
+	}
+	tab button:hover {
+		background-color: #ccc;
+	}
+	.tab button.active {
+		background-color: #ccc;
+
+	}
+	.tabcontent {
+		display: none;
+		padding: 25px 25px;
+		height: 100%;
+	}
+	
+	input{
+		background-color: #ccc;
+		border: 2px black solid;
+		display: block;
+		margin: auto;
+		font-size: 25px;
+		font-family: "Courier New";
+	}
+	.button{
+		background-color: #ccc;
+		border: 2px black solid;
+		display: block;
+		margin: auto;
+		font-size: 25px;
+		font-family: "Courier New";
+	}
+	ul{
+		text-align: center;
+		font-size: 50px;
+		font-family: "Courier New";	
+		list-style: inside;
+	}
+
+	
